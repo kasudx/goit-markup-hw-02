@@ -1,1 +1,1 @@
-https://kasudx.github.io/goit-markup-hw-0/
+https://kasudx.github.io/goit-markup-hw-02/
