@@ -20,9 +20,10 @@ address {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
+  color: #212121;
 }
 
-nav-elements:hover {
+.nav-elements:hover {
   color: #2196f3;
 }
 
@@ -31,7 +32,11 @@ nav-elements:hover {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
-  color: #212121;
+  color: #757575;
+}
+
+.contact-data:hover {
+  color: #2196f3;
 }
 
 footer {
@@ -40,13 +45,13 @@ footer {
 
 .footer-contact-data-email {
   font-size: 14px;
-  font-weight: 400;
+
   line-height: 1.71;
   color: #ffffff99;
 }
 .footer-contact-data-number {
   font-size: 14px;
-  font-weight: 400;
+
   line-height: 1.71;
   text-decoration: none;
   color: #ffffff99;
@@ -54,7 +59,7 @@ footer {
 
 .footer-street-name {
   font-size: 14px;
-  font-weight: 400;
+
   line-height: 1.71;
   color: #ffffff;
 }
@@ -77,6 +82,10 @@ button:hover {
 
 .studio {
   color: black;
+}
+
+.footer-studio {
+  color: #ffffff;
 }
 
 .img-title {
