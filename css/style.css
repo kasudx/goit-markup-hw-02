@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 
 :root {
-  --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --background-color: #ffffff;
   --hover-color: #2196f3;
@@ -27,10 +27,10 @@ address {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
-  color: var(--primary-text-color);
 }
 
-.nav-elements:hover {
+.nav-elements:hover,
+.nav-elements:focus {
   color: var(--hover-color);
 }
 
@@ -42,7 +42,8 @@ address {
   color: var(--secondary-text-color);
 }
 
-.contact-data:hover {
+.contact-data:hover,
+.contact-data:focus {
   color: var(--hover-color);
 }
 
@@ -109,7 +110,6 @@ button:hover {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  color: var(--primary-text-color);
 }
 
 .img-description {
