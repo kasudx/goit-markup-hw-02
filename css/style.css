@@ -3,8 +3,10 @@ body {
 }
 
 :root {
-  --main-text-color: #212121;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
   --background-color: #ffffff;
+  --hover-color: #2196f3;
 }
 
 .logo {
@@ -25,11 +27,11 @@ address {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .nav-elements:hover {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 .contact-data {
@@ -37,11 +39,11 @@ address {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .contact-data:hover {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 
 footer {
@@ -69,10 +71,18 @@ footer {
   color: #ffffff;
 }
 
-button {
+.button-portfolio {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
+  background-color: #f5f4fa;
+}
+
+.button-main-page {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.86;
+  background-color: #2196f3;
 }
 
 button:hover {
@@ -97,17 +107,14 @@ button:hover {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .img-description {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
-  color: #757575;
-}
-
-.menu-buttons {
+  color: var(--secondary-text-color);
 }
 
 .menu-images {
@@ -138,4 +145,5 @@ h1 {
 }
 
 .team {
+  background-color: #f5f4fa;
 }
