@@ -27,6 +27,7 @@ address {
   font-weight: 500;
   line-height: 1.14;
   text-decoration: none;
+  color: #212121;
 }
 
 .nav-elements:hover,
@@ -78,6 +79,12 @@ footer {
   line-height: 1.62;
   background-color: #f5f4fa;
   color: #212121;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--hover-color);
 }
 
 .button-main-page {
@@ -86,12 +93,7 @@ footer {
   line-height: 1.86;
   background-color: #2196f3;
   color: #ffffff;
-}
-
-button:hover {
   cursor: pointer;
-
-  -webkit-text-fill-color: white;
 }
 
 .web {
@@ -132,15 +134,22 @@ button:hover {
 
 .main-page-first-section {
   background-color: #2f303a;
-}
-
-h1 {
-  font-size: 14px;
+  font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
   color: #ffffff;
 }
-.assets {
+
+.assets-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.assets-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 .about-us {
