@@ -54,16 +54,24 @@ footer {
 
 .footer-contact-data-email {
   font-size: 14px;
-
   line-height: 1.71;
   color: #ffffff99;
 }
+
+.footer-contact-data-.footer-contact-data-email:hover,
+.footer-contact-data-email:focus {
+  color: var(--hover-color);
+}
 .footer-contact-data-number {
   font-size: 14px;
-
   line-height: 1.71;
   text-decoration: none;
   color: #ffffff99;
+}
+
+.footer-contact-data-number:hover,
+.footer-contact-data-number:focus {
+  color: var(--hover-color);
 }
 
 .footer-street-name {
@@ -116,7 +124,6 @@ footer {
 
 .img-description {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.87;
   color: var(--secondary-text-color);
 }
